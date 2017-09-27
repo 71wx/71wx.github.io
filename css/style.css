@@ -319,13 +319,13 @@ header h6{
 	padding: 0.6em 0em;
 }
 .monitor{
-	background: url(../images/iconset.png) no-repeat -1px 0px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -1px 0px;
 }
 .target{
-	background: url(../images/iconset.png) no-repeat -90px 0px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -90px 0px;
 }
 .event{
-	background: url(../images/iconset.png) no-repeat -175px 0px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -175px 0px;
 }
 .grid_of_1
 {
@@ -342,19 +342,19 @@ header h6{
 }
 .cup
 {
-	background: url(../images/iconset.png) no-repeat -1px -107px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -1px -107px;
 }
 .smill
 {
-	background: url(../images/iconset.png) no-repeat -78px -105px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -78px -105px;
 }
 .meeting
 {
-	background: url(../images/iconset.png) no-repeat -170px -107px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -170px -107px;
 }
 .parties
 {
-	background: url(../images/iconset.png) no-repeat -255px -103px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -255px -103px;
 }
 .grids-of_4
 {
@@ -492,26 +492,26 @@ header h6{
 	padding: 1.2em 0em;
 }
 .system{
-	background: url(../images/iconset.png) no-repeat 1px -205px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat 1px -205px;
 }
 .tools{
-	background: url(../images/iconset.png) no-repeat -89px -210px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -89px -210px;
 }
 .mobile
 {
-	background: url(../images/iconset.png) no-repeat -184px -208px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -184px -208px;
 }
 .monitor
 {
-	background: url(../images/iconset.png) no-repeat -280px -207px ;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -280px -207px ;
 }
 .smonitor
 {
-	background: url(../images/iconset.png) no-repeat -383px -210px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -383px -210px;
 }
 .radio
 {
-	background: url(../images/iconset.png) no-repeat -484px -208px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -484px -208px;
 }
 .slider2
 {
@@ -934,7 +934,7 @@ button::-moz-focus-inner {
 }
 .contact-bg
 {
-	background:#F0F0F0 url('../images/slider1.jpg') no-repeat;
+	background:#F0F0F0 url('https://i.loli.net/2017/09/27/59cb11ff12908.jpg') no-repeat;
 	background-size:1440px 1350px;
 	margin-top: 3.5em;
 	padding-bottom: 4em;
@@ -1060,15 +1060,15 @@ button::-moz-focus-inner {
 }
 .pointor
 {
-	background: url(../images/iconset.png) no-repeat -268px -8px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -268px -8px;
 }
 .contact-img
 {
-	background: url(../images/iconset.png) no-repeat -366px -8px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -366px -8px;
 }
 .website
 {
-	background: url(../images/iconset.png) no-repeat -478px -8px;
+	background: url(https://i.loli.net/2017/09/27/59cb1289aec29.png) no-repeat -478px -8px;
 }
 .footer {
 	background: #D8D8D8;
@@ -1591,7 +1591,7 @@ button::-moz-focus-inner {
 	display:block;
 }
 
-/**¿Í·þ´úÂë**/
+/**ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½**/
 #kf_box{width:105px; height:auto; background:#FFF; position:fixed; z-index:9999; color:#000; right:5px; border:2px solid #ff7f06;border-radius:0px; top:150px;}
 #kf_box .head_qy{ width:105px; height:83px; position:relative;}
 #kf_box .head_qy .qq-a{ width:132px; height:109px; display:block; position:absolute; background:url(../images/hyqq_01.png) no-repeat; left:-35px; top:-95px;}
@@ -1606,7 +1606,7 @@ button::-moz-focus-inner {
 #kf_box .kftt_dz{ width:90px; margin:auto; height:27px; line-height:27px; display:block; color:#FFF; font-size:14px; background:#ff4c00; border-radius:5px; text-align:center;}
 #kf_box .kftt_dz:hover{text-decoration:underline;}
 
-/*ÇþµÀÌí¼Ó20160622*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½20160622*/
 .kfqd_qq{
 	width: 80px;
 	background: #354184;
