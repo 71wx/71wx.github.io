@@ -380,7 +380,7 @@ header h6{
 }
 .clients
 {
-	background-image: url('../images/bg1.jpg');
+	background-image: url('https://i.loli.net/2017/09/27/59cb1808a8ba1.jpg');
 }
 .clients h3 {
 	color: #FFF;
@@ -1594,9 +1594,9 @@ button::-moz-focus-inner {
 /**�ͷ�����**/
 #kf_box{width:105px; height:auto; background:#FFF; position:fixed; z-index:9999; color:#000; right:5px; border:2px solid #ff7f06;border-radius:0px; top:150px;}
 #kf_box .head_qy{ width:105px; height:83px; position:relative;}
-#kf_box .head_qy .qq-a{ width:132px; height:109px; display:block; position:absolute; background:url(../images/hyqq_01.png) no-repeat; left:-35px; top:-95px;}
-#kf_box .head_qy .qq-a:hover{ width:132px; height:109px; display:block; position:absolute; background:url(../images/hyqq_01.png) no-repeat; left:-35px; top:-95px; text-decoration:none;}
-#kf_box .mf_sy{ width:120px; height:70px; position:absolute; top:15px; left:-12px; background:url(../images/mf_sy_01.png) no-repeat; text-decoration:none;}
+#kf_box .head_qy .qq-a{ width:132px; height:109px; display:block; position:absolute; background:url(https://i.loli.net/2017/09/27/59cb17b76e1b9.png) no-repeat; left:-35px; top:-95px;}
+#kf_box .head_qy .qq-a:hover{ width:132px; height:109px; display:block; position:absolute; background:url(https://i.loli.net/2017/09/27/59cb17b76e1b9.png) no-repeat; left:-35px; top:-95px; text-decoration:none;}
+#kf_box .mf_sy{ width:120px; height:70px; position:absolute; top:15px; left:-12px; background:url(https://i.loli.net/2017/09/27/59cb182baa3df.png) no-repeat; text-decoration:none;}
 #kf_box .mf_sy img{ margin-top:32px; margin-left:15px;}
 #kf_box .kfqq_box{ width:105px; height:auto; padding-bottom:10px;}
 #kf_box .kfqq_box .kftt_bx{ width:105px; height:26px; line-height:26px; text-align:center; background:url(../images/zxtt_01.png) center no-repeat; font-size:14px; margin:10px auto;}
