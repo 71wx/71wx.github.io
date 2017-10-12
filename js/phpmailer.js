@@ -15,7 +15,7 @@ var PHPMailer={
                     'userEmail'		 : $("#userEmail").val(),
                     'userName'		 : $("#userName").val(),
                     'userTitle'      : $("#userTitle").val(),
-                    'userMsg'		 : "你好，<br>我们已经收到你的信息。<br><br>----------------<br><br>".$("#userMsg").val().replace("/\n/g","<br>")
+                    'userMsg'		 : "你好，<br>我们已经收到你的信息。<br><br>----------------<br><br>"+$("#userMsg").val().replace("/\n/g","<br>")
                 },
                 async: false,
                 dataType: "jsonp",
