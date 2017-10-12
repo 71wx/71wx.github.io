@@ -434,7 +434,7 @@ B2B商城，企业对企业的电子商务模式。</p>
 				<div class="wrap">
 					<div class="form">
 					<div class="contact-form">
-						<form id="mailForm" method="post" action="mailto:71wx@mail85.com">
+						<form id="mailForm" method="post" action="">
 						 <div>
 							<span><label style="color:rgb(255, 255, 255);">姓名/公司名称</label></span>
 							<span><input id="userName" name="userName" type="text" class="textbox"></span>
@@ -452,31 +452,18 @@ B2B商城，企业对企业的电子商务模式。</p>
 							<span><textarea id="userMsg" name="userMsg"> </textarea></span>
 						</div>
 					   <div>
-							<span><input type="button" value="立即联系我们" onclick="sendMail();"></span>
+							<span>
+								<input type="button" value="发送" id="send_email">
+								<input type="button" value="发送中..." id="loading" style="display:none">
+								<input type="button" value="邮件发送成功，请注意查收！" id="alert-success" style="display:none">
+								<input type="button" value="邮件发送失败，请联系管理员！" id="alert-danger" style="display:none">
+							</span>
 					   </div>
-					   <input id="body" name="body" type="hidden" class="textbox">
 						</form>			
 					</div>
 					
-<script type="text/javascript">
-    function sendMail() {
-        var mailForm = $("mailForm");
-        addBody($("body"), "姓名/公司名称", "userName");
-        addBody($("body"), "您的邮件地址", "userEmail");
-        addBody($("body"), "邮件主题", "userTitle");
-        addBody($("body"), "正文内容", "userMsg");
-		mailForm.action = "mailto:71wx@mail85.com?subject="+$("userTitle").value+"&body="+$("body").value;
-		mailForm.submit();
-    }
-    function $(id) {
-        return document.getElementById(id);
-    }
- 
-    function addBody(body, labelId, valueId) {
-        body.value += "----------------------------\n";
-        body.value += labelId + $(valueId).value + "\n";
-    }
-</script>					
+        <script type="text/javascript" src="js/phpmailer.js"></script>
+
 
 					<div class="address">
 						<h3 class="heading" style="color:rgb(255, 255, 255);">小程序客户服务中心</h3>
