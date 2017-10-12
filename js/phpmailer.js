@@ -15,7 +15,7 @@ var PHPMailer={
                     'userEmail'		 : $("#userEmail").val(),
                     'userName'		 : $("#userName").val(),
                     'userTitle'      : $("#userTitle").val(),
-                    'userMsg'		 : $("#userMsg").val()
+                    'userMsg'		 : $("#userMsg").val().replace("/\n/g","<br>")
                 },
                 async: false,
                 dataType: "jsonp",
