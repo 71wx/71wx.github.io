@@ -9,8 +9,9 @@ var PHPMailer={
     'sendEmail' : function() {
         $.ajax(
             {
-                type: "GET",
+                type: "POST",
                 url : "http://hostidc.com/mail/send71wx.php",
+                crossDomain: true,
                 data: {
                     'userEmail'		 : $("#userEmail").val(),
                     'userName'		 : $("#userName").val(),
@@ -18,9 +19,9 @@ var PHPMailer={
                     'userMsg'		 : "你好，<br>我们已经收到你的信息。<br><br>----------------<br><br>"+$("#userMsg").val().replace("/\n/g","<br>")
                 },
                 async: false,
-                dataType: "jsonp",
-				jsonp: "callback",
-				jsonpCallback:"sendEmailHandler",
+                dataType: "json",
+				//jsonp: "callback",
+				//jsonpCallback:"sendEmailHandler",
                 beforeSend: function (xhr) {
                     //pjax 实现
                     //xhr.setRequestHeader('X-PJAX', 'true');
